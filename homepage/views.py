@@ -9,3 +9,6 @@ def about(request):
 def signup(request):
     return render(request, 'homepage/signup.html')
 
+def signin(request):
+    return render(request, 'homepage/signin.html')
+
